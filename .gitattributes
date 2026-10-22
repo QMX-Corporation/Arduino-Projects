@@ -1,0 +1,22 @@
+# Define default behavior to automatically normalize line endings
+# and ensure cross-platform compatibility for all text files.
+* text=auto
+
+# Explicitly declare text files and enforce LF line endings
+*.ino text diff=cpp
+*.cpp text diff=cpp
+*.h text diff=cpp
+*.c text diff=cpp
+*.txt text
+*.md text
+*.json text
+*.yml text
+*.yaml text
+Dockerfile text
+
+# Handle binary files if added later (images, archives, compiled binaries)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.tar.gz binary

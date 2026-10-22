@@ -1,0 +1,72 @@
+# ==========================================
+# Arduino & C/C++ Build Outputs & Artifacts
+# ==========================================
+# Compiled object files
+*.o
+*.obj
+*.ko
+*.lib
+*.a
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled binaries and firmware images
+*.elf
+*.hex
+*.bin
+*.hex
+*.eep
+*.map
+*.sym
+*.lst
+
+# Arduino temporary build folders (IDE build outputs)
+build/
+core/
+applet/
+.build/
+
+# ==========================================
+# Operating System Junk
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux / Android temporary files
+*~
+.directory
+.trash/
+
+# ==========================================
+# Editors & IDEs Configurations
+# ==========================================
+# VS Code / Acode workspace specifics
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/ipch/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Logs and Temporary Databases
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.tmp/
+temp/

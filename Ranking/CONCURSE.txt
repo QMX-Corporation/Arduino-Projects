@@ -1,0 +1,15 @@
+               ARDUINO    PROJECTS
+
+      For participes, is necessary:
+
+
+1. A 1 Contribution.
+
+2. A 1 Issue.
+
+3. A 1 PR.
+
+4. A Relevant Project.
+
+
+Thanks, and Happy!

@@ -1,0 +1,17 @@
+{
+  "name": "QMX Corporation - Arduino Projects",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "arduino.vscode-arduino",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "editorconfig.editorconfig"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
